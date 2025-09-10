@@ -1,3 +1,5 @@
+package LW_01;
+
 import java.util.Scanner;
 public class Q03 {
     public static void main(String[] args) {
