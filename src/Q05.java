@@ -20,8 +20,8 @@ public class Q05 {
 
         double shadedArea = outerCircle.computeArea() - innerCircle.computeArea();
 
-        System.out.println("Inner Circle Area: " + innerCircle.computeArea());
-        System.out.println("Outer Circle Area: " + outerCircle.computeArea());
-        System.out.println("Shaded Region Area: " + shadedArea);
+        System.out.println("Inner Circle Area is: " + innerCircle.computeArea());
+        System.out.println("Outer Circle Area is : " + outerCircle.computeArea());
+        System.out.println("Shaded Region Area is: " + shadedArea);
     }
 }
