@@ -9,6 +9,6 @@ public class Q07 {
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("EEEE, MMMM d, yyyy");
 
         String formattedDate = today.format(formatter);
-        System.out.println("Today's date: " + formattedDate);
+        System.out.println("Today's date is : " + formattedDate);
     }
 }
