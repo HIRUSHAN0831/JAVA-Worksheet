@@ -5,8 +5,6 @@ import java.util.Scanner;
 class Temperature {
 
     private double celsius;
-
-
     public Temperature() {
         celsius = 0.0;
     }
