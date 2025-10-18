@@ -9,7 +9,6 @@ class Temperature {
         celsius = 0.0;
     }
 
-
     public Temperature(double celsius) {
         this.celsius = celsius;
     }
