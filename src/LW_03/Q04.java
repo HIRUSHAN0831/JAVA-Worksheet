@@ -85,7 +85,7 @@ class Student {
 public class Q04 {
     public static void main(String[] args) {
         Lecturer lecturer = new Lecturer();
-        lecturer.setLecturerName("Dr. Perera");
+        lecturer.setLecturerName("Dr. Kasun Madushanka");
         lecturer.setCourseTeaching("OOP Programming");
 
         Course course = new Course();
@@ -95,7 +95,7 @@ public class Q04 {
 
         Student student = new Student();
         student.setStudentName("Hirushan Rajapaksha");
-        student.setDegreeName("BSc in Computer Science");
+        student.setDegreeName("BSc (Hons) in Computer Science");
         student.setCourseFollowing(course.getCourseName());
 
         System.out.println("----- Course Registration Details -----");
