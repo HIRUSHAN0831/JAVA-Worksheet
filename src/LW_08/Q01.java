@@ -49,7 +49,6 @@ public class Q01 extends JFrame implements ActionListener {
         title.setLocation(150, 20);
         c.add(title);
 
-        // Name
         nameLabel = new JLabel("Name");
         nameLabel.setFont(new Font("Arial", Font.PLAIN, 15));
         nameLabel.setSize(100, 20);
@@ -75,7 +74,6 @@ public class Q01 extends JFrame implements ActionListener {
         emailText.setLocation(150, 110);
         c.add(emailText);
 
-        // Gender
         genderLabel = new JLabel("Gender");
         genderLabel.setFont(new Font("Arial", Font.PLAIN, 15));
         genderLabel.setSize(100, 20);
@@ -100,7 +98,6 @@ public class Q01 extends JFrame implements ActionListener {
         genderGroup.add(male);
         genderGroup.add(female);
 
-        // DOB
         dobLabel = new JLabel("Birthday");
         dobLabel.setFont(new Font("Arial", Font.PLAIN, 15));
         dobLabel.setSize(100, 20);
@@ -125,7 +122,6 @@ public class Q01 extends JFrame implements ActionListener {
         year.setLocation(310, 190);
         c.add(year);
 
-        // Password
         passwordLabel = new JLabel("Password");
         passwordLabel.setFont(new Font("Arial", Font.PLAIN, 15));
         passwordLabel.setSize(100, 20);
@@ -138,14 +134,12 @@ public class Q01 extends JFrame implements ActionListener {
         passwordText.setLocation(150, 230);
         c.add(passwordText);
 
-        // Robot Checkbox
         robotCheck = new JCheckBox("I am not a robot.");
         robotCheck.setFont(new Font("Arial", Font.PLAIN, 14));
         robotCheck.setSize(200, 20);
         robotCheck.setLocation(100, 270);
         c.add(robotCheck);
 
-        // Sign Up Button
         signupBtn = new JButton("Sign Up");
         signupBtn.setFont(new Font("Arial", Font.BOLD, 15));
         signupBtn.setBackground(Color.BLUE);
